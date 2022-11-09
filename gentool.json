@@ -1,0 +1,17 @@
+{
+    "$schema": "./config-schema.json",
+    "version": 1,
+    "input": {
+        "std": "c++11",
+        "paths": ["/stf/src"],
+        "includes": ["/stf/src"],
+        "system": [],
+        "defines": [],
+        "cflags": []
+    },
+    "output": {
+        "path": "/stf/qu3e.d",
+        "target": "dlang",
+        "attr-nogc": false
+    }
+}

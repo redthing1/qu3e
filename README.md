@@ -9,6 +9,16 @@ Since qu3e is written in C++ is intended for users familiar with C++. The inner-
 
 qu3e stands for "cube", since the 3 looks slightly like the letter *b* and boxes (or cubes!) are the primary type of collision object.
 
+## build bindings for D
+
+```sh
+# gen
+cmake -G Ninja -DCMAKE_INSTALL_PREFIX=/usr -Bbuild -Dqu3e_build_demo=OFF
+ninja -C build
+# gen
+podman run -it --rm -v $(pwd):/stf redthing1/gentool /stf/gentool.json
+```
+
 Screenshots
 -----------
 
